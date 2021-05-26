@@ -1,6 +1,0 @@
-Environment: shared
-default:
-  image_rg: /subscriptions/1735c12f-21a4-4ca2-9c7c-a1c4dbbcf513/resourceGroups/rg-gs-shareimage/
-  mbbc_registry:  /subscriptions/1735c12f-21a4-4ca2-9c7c-a1c4dbbcf513/resourceGroups/rg-gs-acr-shs-preprod/providers/Microsoft.ContainerRegistry/registries/mbbcserviceapproval
-  bootstrap_registry: /subscriptions/e041b43e-2872-4ea7-8184-3c441e6b106d/resourceGroups/rg-shs-bootstrap/providers/Microsoft.ContainerRegistry/registries/acrshsbootstrap
-  location: chinanorth2
