@@ -1,0 +1,18 @@
+keyvaults:
+  - org_scope: gs
+    func_scope: shs
+    func_scope_short: shs
+    environment:  {{$envName}}
+    environment_short: {{$envName_short}}
+    module_name: kv
+    init_keyvault: kv-init-gs
+    location: {{$default.location}}
+    enable_purge_protection: true_scope: gs
+    func_scope: shs
+    func_scope_short: shs
+    environment:  {{$envName}}
+    environment_short: {{$envName_short}}
+    module_name: kv
+    init_keyvault: kv-init-gs
+    location: {{$default.location}}
+    enable_purge_protection: true
